@@ -71,7 +71,7 @@ function manipulateFile(destinationDir: string, fileInfo: FileInfo): void {
 	fs.mkdirSync(toPath, { recursive: true })
 
 	// ファイルの移動
-	fs.copyFileSync(fileInfo.originalFilePath,toFilePath)
+	fs.renameSync(fileInfo.originalFilePath,toFilePath)
 }
 
 // プラグインを読み込む
