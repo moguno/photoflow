@@ -1,0 +1,21 @@
+{
+  "name": "photoflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "photoflow.js",
+  "dependencies": {
+    "luxon": "^2.2.0",
+    "node-exiftool": "^2.3.0",
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/luxon": "^2.0.8",
+    "@types/node": "^17.0.5",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
